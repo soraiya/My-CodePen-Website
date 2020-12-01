@@ -1,0 +1,128 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+header {
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+  
+}
+
+header-img {
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0px;
+}
+
+h1,
+h2,
+h3,
+.nav-link {
+  font-family: arial;
+}
+
+#nav-bar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-family: arial;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 14px 16px;
+}
+
+ol{
+  list-style: none;
+}
+
+.sign-up-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: BurlyWood;
+ font-family: arial;
+ font-size: 15px;
+ height: 100px; 
+}
+
+#video {
+  width: 560px;
+  height: 315px;
+}
+
+h1 {
+  color: Maroon;
+  font-family: arial;
+}
+
+h2 {
+  color: Maroon;
+  font-family: arial;
+}
+
+#video-page {
+overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+#design-interiors,
+#renovations,
+#our-services {
+  margin-top: 0px;
+  padding: 55px;
+}
+
+.material-icons {
+  font-size: 5em;
+}
+
+#design-interiors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#design-interiors {
+  border-radius: 4em;
+}
+
+#renovations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#renovations {
+  border-radius: 4em;
+}
+
+#our-services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#our-services {
+  border-radius: 4em;
+}
+
+@media (max-width: 600px) {
+  #nav-bar {
+    display: none;
+  }
+}
